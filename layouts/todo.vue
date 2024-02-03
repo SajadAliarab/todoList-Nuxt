@@ -1,5 +1,5 @@
 <template>
-    <div class="body">
+    <div>
         
         <h1>Todo Application</h1>
         <slot></slot>

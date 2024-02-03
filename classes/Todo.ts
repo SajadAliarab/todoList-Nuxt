@@ -1,8 +1,8 @@
 export class Todo {
     constructor(
-        public title: string, public description: string, public status:StatusTodo){}
+        public id:number ,public title: string, public description: string, public status:StatusTodo){}
 }
 export enum StatusTodo{
-    PENDING,
-    COMPLETED
+    PENDING='Pending',
+    COMPLETED = 'Compelted'
 }
